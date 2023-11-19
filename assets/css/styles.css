@@ -75,6 +75,11 @@ a {
     word-break: break-all;
 }
 
+.action {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
 
 
 .btn__sign-in {
@@ -97,6 +102,7 @@ a {
     justify-content: center;
     background: #e6f0ff;
     height: calc(100vh - 90px);
+    scroll-margin-top: 90px;
 }
 .header__wrap {
     width: 100%;
@@ -154,6 +160,7 @@ a {
 .section-two__clients {
     margin: 79px 0 0;
     padding : 43px 0px 41px;
+    scroll-margin-top: 143px;
 }
 
 .row {
@@ -207,6 +214,7 @@ a {
     padding: 79px 0px;
     text-align: center;
     font-weight: 600;
+    scroll-margin-top: 100px;
 }
 
 .work__sub-title {
